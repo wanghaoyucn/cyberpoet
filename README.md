@@ -1,6 +1,6 @@
 # 计算机诗人 火鸟
 
-刘慈欣的作诗程序
+刘慈欣的作诗程序，来自未名BBS帖子 [大刘的计算机写诗程序写的诗](https://bbs.pku.edu.cn/v2/post-read.php?bid=210&threadid=14882047) 中站友 @Tariel 的分享。
 
 ## 使用
 
