@@ -1,0 +1,46 @@
+App Name	xxxxxxxx.xxx	
+App Version	2024-02-24 23:44:28	
+Frame Bitmap	"wizsetup.dll, 109, 110"	
+Frame Caption	CP Setup	
+Dialog Caption Base	CP	
+Usage String	Usage:  Setup or Setup /A\nSetup /A runs the setup in Administrator mode.	
+About Box String	CP1.0\n\nThis installation was created using the Visual FoxPro Setup Wizard.	
+Check Modules	"Fox_4000001,Microsoft Visual FoxPro, graph, MS Graph, ed, MS Draw, msinfo, MS Info, MSOfficeWClass, Microsoft Office Manager, MOM Class, Office Shortcut Bar"	
+Source Directory	C:\CPSETUP\	
+MSAPPS Mode	local	
+MSAPPS Connect	server	
+Inf File Name	SETUP.INF	
+Help File Name	ACMSETUP.HLP	
+Setup Status	"a<Üå±‘•ÔyÍ”A‚ƒmŠÖ;!¥Ó²ðoxµQd^¯shíï…U½]8Eý€m?²ÚAëÁ˜^ÿcõ‡ÒèaºÅëù#Û@ÜçªS‘@`å¯äÙñ•á<‹YÞæÇí'çØ3…3TÙï[…†~ËG­C[‰›^Nÿ3v³w]§&ž;Y¾K)û«h“k%Ï»táÃâä…µ•Åp•Eð§ÑsÓédêõææA‹ïMew5{"	
+Maximum Object ID	292	
+Admin Mode Root Object ID		
+Floppy Mode Root Object ID	7 : 2	
+Network Mode Root Object ID		
+Maintenance Mode Root Object ID	8 : 2	
+Network Maintenance Mode Root Object ID		
+Batch Mode Root Object ID		
+Suppress Serial Number Dialog		
+Install Date	2024.02.25.16.34.30	
+Setup Version	1.20.0.1915	
+Check Modules2		
+
+
+ObjID	Checkbox State	Title	Description	Object Type	Object Data	Bitmap Id	Vital Attribute	Shared Attribute	Configurable Directory	Destination Directory	Check Directory	Installed By	Install Data	Install Directory
+2		CP	Search for previous versions.	AppSearch	"""C:\CPPROJ\"", """", """", 10, ""yes"", ""yes"","					C:\CPPROJ\		us		C:\CPPROJ\
+7		Floppy Installation		AppMainDlg	13				yes	C:\CPPROJ\		us		C:\CPPROJ\
+8		Maintenance Installation		CustomDlg	13					C:\CPPROJ\				
+13	yes		CP will be installed.	Group	240 30 60	"wizsetup.dll, 111"						us		C:\CPPROJ\
+14	yes	CP	CP will be installed.	Group	240 30 60	"wizsetup.dll, 111"								
+30	yes	*** Microsoft Visual FoxPro Runtime		Group	31 32 33 34 35 36 37		vital					us		C:\CPPROJ\
+31	yes			InstallSysFile	"""FoxPro Runtime"", ""Vfp300Esl"""							us		C:\WINDOWS\SYSTEM\
+32	yes			AddRegData	"""CLASSES"", ""VisualFoxProRuntime\shell\open\command"", """", ""%s\VFP300.ESL %%1"""					%31		us		C:\WINDOWS\SYSTEM\
+33	yes			AddRegData	"""CLASSES"", ""VisualFoxProRuntime"", """", ""Microsoft Visual FoxPro 3.0 Runtime"""							us		C:\CPPROJ\
+34	yes			InstallSysFile	"""FoxPro Runtime"", ""Fxole30bDll"""							us		C:\WINDOWS\SYSTEM\
+35	yes			InstallSysFile	"""FoxPro Runtime"", ""FoxproInt"""							us		C:\WINDOWS\SYSTEM\
+36	yes			InstallSysFile	"""FoxPro Runtime"", ""Msvcrt40NT"""							us		C:\WINDOWS\SYSTEM\
+37				InstallSysFile	"""OLE Custom Controls"", ""Olepro32Dll"""							us		C:\WINDOWS\SYSTEM\
+60	yes	*** System Files		Group	61 63 64							us		C:\CPPROJ\
+61				CustomAction	"""wizsetup.dll"", ""InstallSys16PermFile"", ""System, Ctl3dv2Dll"""							us		C:\WINDOWS\SYSTEM\
+63				InstallSysFile	"""System"", ""Mfc40Dll"""							us		C:\WINDOWS\SYSTEM\
+64				InstallSysFile	"""System"", ""Msvcrt21Dll"""							nyi		
+240		*** CP Files		CopySection	Application							us		C:\CPPROJ\
