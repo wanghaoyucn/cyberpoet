@@ -2,6 +2,8 @@
 
 刘慈欣的作诗程序，来自未名BBS帖子 [大刘的计算机写诗程序写的诗](https://bbs.pku.edu.cn/v2/post-read.php?bid=210&threadid=14882047) 中站友 @Tariel 的分享。
 
+![demo](demo.png)
+
 ## 使用
 
 1. 在Windows电脑上安装 Visual FoxPro 9.0
